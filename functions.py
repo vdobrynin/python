@@ -23,7 +23,9 @@ print(do_math(8, 10))
 print(operator.add(2, 2))   # 2 + 2
 print(operator.not_(True))  # not True
 
+
 def other_function(arg1, arg2='a', arg3=None, arg4=True, arg5='hello'):
     pass
+
 
 other_function(1, arg4=False)
